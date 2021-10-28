@@ -16,6 +16,7 @@ body {
   padding-top: 2rem auto;
 }
 
+
 #img-div {
   display: flex;
   justify-content: center;
@@ -24,8 +25,8 @@ body {
 }
 
 #image {
-  width: 50%;
-  height: 20%;
+  max-width: 50%;
+  height: auto;
 }
 
 #img-caption {
@@ -43,10 +44,7 @@ div {
 }
 
 #tribute-info {
-    /* align-items: flex-start; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* flex-direction: column; */
+
   width: 70%;
 }
 
