@@ -1,6 +1,12 @@
+html{
+  margin: 0;
+}
+body{
+  margin: 0;
+}
 #main {
   /* background-color: #e9e9e9; */
-  background-color: #c4c4c2;
+  /* background-color: #c4c4c2; */
 }
 
 #title {
@@ -27,4 +33,20 @@
     padding-top: 1rem;
     padding-bottom: 2rem;
     font-size: 1.5rem;
+}
+
+li{
+  padding: 0.5rem;
+}
+a{
+  
+  text-decoration: none;
+  padding: 2rem;
+  
+}
+a:link{
+  color: #0b61bd;
+}
+a:visited{
+  color: #0b61bd
 }
