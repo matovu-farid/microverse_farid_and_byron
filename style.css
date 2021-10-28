@@ -1,7 +1,7 @@
-html{
+html {
   margin: 0;
 }
-body{
+body {
   margin: 0;
 }
 #main {
@@ -28,25 +28,39 @@ body{
   height: 20%;
 }
 
-#img-caption{
-    /* padding: 2rem auto; */
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    font-size: 1.5rem;
+#img-caption {
+  /* padding: 2rem auto; */
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
 }
 
-li{
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#tribute-info {
+    /* align-items: flex-start; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  width: 70%;
+}
+
+li {
   padding: 0.5rem;
 }
-a{
-  
+#tribute-link {
+    text-align: left;
   text-decoration: none;
   padding: 2rem;
-  
 }
-a:link{
+#tribute-link:link {
   color: #0b61bd;
 }
-a:visited{
-  color: #0b61bd
+#tribute-link:visited {
+  color: #0b61bd;
 }
