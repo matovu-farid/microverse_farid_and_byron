@@ -1,0 +1,30 @@
+#main {
+  /* background-color: #e9e9e9; */
+  background-color: #c4c4c2;
+}
+
+#title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2rem auto;
+}
+
+#img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#image {
+  width: 50%;
+  height: 20%;
+}
+
+#img-caption{
+    /* padding: 2rem auto; */
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+}
